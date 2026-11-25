@@ -1,0 +1,20 @@
+# runtime state
+state.json
+vlc.pid
+*.log
+server.err.log
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# os
+Thumbs.db
+desktop.ini
+.DS_Store
