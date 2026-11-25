@@ -1,5 +1,7 @@
 # Hacker Radio
 
+[English](README.md) | **Español**
+
 Consola de radio de una sola ventana para streams de hacking, ambient y
 scanners. Veinte emisoras curadas y comprobadas a mano, más búsqueda sobre el
 resto del catálogo de Radio-Browser.
@@ -10,7 +12,6 @@ consola.
 
 ![Consola de Hacker Radio](screenshot.png)
 
-Read this in English: [README.md](README.md)
 
 ## Qué incluye
 

@@ -1,5 +1,7 @@
 # Hacker Radio
 
+**English** | [Español](README.es.md)
+
 A single window radio console for hacker, ambient and scanner streams. Twenty
 stations are curated and checked by hand. Search covers the rest of the
 Radio-Browser catalogue.
@@ -9,7 +11,6 @@ drives it over its HTTP interface, so the only thing on screen is the console.
 
 ![Hacker Radio console](screenshot.png)
 
-Leer en espanol: [README.es.md](README.es.md)
 
 ## Features
 
