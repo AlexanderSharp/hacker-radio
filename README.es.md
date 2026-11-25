@@ -1,6 +1,10 @@
-# Hacker Radio
+<p align="center">
+  <img src="assets/logo-256.png" alt="Hacker Radio" width="160">
+</p>
 
-[English](README.md) | **Español**
+<h1 align="center">Hacker Radio</h1>
+
+<p align="center"><a href="README.md">English</a> | <b>Español</b></p>
 
 Consola de radio de una sola ventana para streams de hacking, ambient y
 scanners. Veinte emisoras curadas y comprobadas a mano, más búsqueda sobre el

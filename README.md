@@ -1,6 +1,10 @@
-# Hacker Radio
+<p align="center">
+  <img src="assets/logo-256.png" alt="Hacker Radio" width="160">
+</p>
 
-**English** | [Español](README.es.md)
+<h1 align="center">Hacker Radio</h1>
+
+<p align="center"><b>English</b> | <a href="README.es.md">Español</a></p>
 
 A single window radio console for hacker, ambient and scanner streams. Twenty
 stations are curated and checked by hand. Search covers the rest of the

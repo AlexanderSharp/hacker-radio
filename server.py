@@ -487,6 +487,14 @@ class Handler(BaseHTTPRequestHandler):
             except OSError:
                 return self._send(204, b"", "image/x-icon")
 
+        if path in ("/logo.svg", "/assets/logo.svg"):
+            fp = os.path.join(ROOT, "assets", "logo.svg")
+            try:
+                with open(fp, "rb") as fh:
+                    return self._send(200, fh.read(), "image/svg+xml")
+            except OSError:
+                return self._send(404, b"", "text/plain")
+
         if path == "/api/stations":
             cats = [{"id": k, "label": v} for k, v in CATS.items()]
             return self._json({"stations": STATIONS, "categories": cats})

@@ -34,7 +34,9 @@
     border-right:1px solid var(--line); background:linear-gradient(180deg,var(--panel),#070b0f);
     display:flex; flex-direction:column; min-height:0;
   }
-  .brand{padding:18px 18px 12px; border-bottom:1px solid var(--line)}
+  .brand{padding:18px 18px 14px; border-bottom:1px solid var(--line)}
+  .mark{width:58px;height:58px;display:block;margin-bottom:12px;
+        filter:drop-shadow(0 0 12px rgba(0,255,156,.35))}
   .brand h1{margin:0; font-size:17px; letter-spacing:.22em; color:var(--green); text-shadow:var(--glow)}
   .brand .sub{font-size:10px; color:var(--dim); letter-spacing:.18em; margin-top:4px; text-transform:uppercase}
   .cats{display:flex; flex-wrap:wrap; gap:6px; padding:12px 14px; border-bottom:1px solid var(--line)}
@@ -171,6 +173,7 @@
 <div class="wrap">
   <aside>
     <div class="brand">
+      <img class="mark" src="/logo.svg" alt="Hacker Radio">
       <h1>HACKER RADIO</h1>
       <div class="sub">rf console // v1.0</div>
     </div>
